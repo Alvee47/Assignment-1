@@ -1,0 +1,401 @@
+@font-face {
+    font-family: 'Montserrat',
+        sans-serif;
+    src: url("/fonts/Montserrat-Bold.ttf") format("ttf"),
+        url("/fonts/Montserrat-ExtraBold.ttf") format("ttf"),
+        url("/fonts/Montserrat-Medium.ttf") format("ttf"),
+        url("/fonts/Montserrat-Regular.ttf") format("ttf"),
+        url("/fonts/Montserrat-SemiBold.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url("/fonts/Manrope-VariableFont_wght.ttf") format("ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.float-l {
+    float: left;
+}
+
+.float-r {
+    float: right;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-wrapper {
+    margin: 20px 0px;
+    border-top: .5px solid black;
+    border-bottom: .5px solid black;
+    line-height: 1 !important;
+    max-width: 1200px;
+    padding: 30px 0;
+
+}
+
+.logo a {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 1;
+    color: black;
+}
+
+.logo a:hover {
+    cursor: crosshair;
+}
+
+.routes {
+    text-align: center;
+    float: right;
+}
+
+.routes ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.routes ul li a {
+    color: #575757;
+}
+
+.routes ul li a:hover {
+    color: black;
+}
+
+.hero-section {
+    padding: 80px 0px;
+
+}
+
+.width-50 {
+    width: 45%;
+    float: left;
+}
+
+.hero-content {
+    padding-top: 100px;
+    margin-right: 70px;
+}
+
+.width-50 h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    color: #575757;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+}
+
+.width-50 span {
+    color: #FBA24F;
+}
+
+.width-50 p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #828282;
+    margin-top: 40px;
+    text-align: justify;
+}
+
+.width-50 .button {
+    display: inline-block;
+    padding: 22px 64px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-style: none;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-top: 49px;
+}
+
+.width-50 a:hover {
+    background: #FBA24F;
+    color: #575757;
+}
+
+.hero-bg img {
+    background-image: url("../images/bg7.png");
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
+}
+
+.cover-section {
+    background: url("../images/Frame59.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-content {
+    margin-top: 127px;
+}
+
+.cover-content p {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+
+}
+
+.cn-btn {
+    margin-top: 90px;
+    margin-bottom: 69px;
+}
+
+.recipe-section {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.recipe-head {
+    margin-bottom: 38px;
+}
+
+.recipe-head h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #676767;
+    margin-bottom: 30px;
+}
+
+.recipe-head p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    color: #252525;
+}
+
+.column-3 {
+    width: 32%;
+    padding-left: 54px;
+    float: left;
+}
+
+.box {
+    background: #FFFFFF;
+    padding: 5%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    height: 100%;
+    min-height: 500px;
+}
+
+
+.recipe-body img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipe-body h3 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.recipe-body p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.state-content {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 100px;
+    margin-bottom: 92px;
+    padding: 64px 165px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.column-2 {
+    width: 33%;
+    float: left;
+}
+
+.state-box {
+    margin: 0px 30px;
+}
+
+.state-box a {
+    color: #18191F;
+}
+
+.state-box a:hover {
+    color: orange;
+}
+
+.state-box h2 {
+    margin-bottom: 0.5em;
+}
+
+.state-box p {
+    color: #18191F;
+}
+
+.state-column {
+    margin-bottom: 50px;
+}
+
+.special-section {
+    background: #f8f5ee;
+    padding: 50px 0px;
+}
+
+.spec-colum {
+    width: 33.33%;
+    padding-left: 10px;
+    float: left;
+
+}
+
+#recipes-1 {
+    background: #f4c2db;
+
+}
+
+.spec-box {
+    padding: 5%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    height: 100%;
+    min-height: 500px;
+    text-align: center;
+}
+
+.spec-box span {
+    margin-bottom: 0.5em;
+}
+
+.spec-box h3 {
+    color: #0B0D17;
+    margin-bottom: 0.6em;
+}
+
+.spec-box img {
+    width: 100%;
+    height: 208px;
+    margin-bottom: 20px;
+    -webkit-filter: sepia(75%);
+    filter: sepia(75%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.spec-box:hover img {
+    -webkit-filter: sepia(0);
+    filter: sepia(0);
+}
+
+.spec-box p {
+
+    margin-bottom: 1.2em;
+}
+
+.primary {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    padding: .73em 2.4em;
+}
+
+.primary:hover {
+    background: #fff;
+}
+
+#recipes-2 {
+    background: #f9a252;
+
+}
+
+#recipes-3 {
+    background: #9e99ad;
+}
+
+.foot-sec {
+    background: #0B0D17;
+}
+
+.foot-sec h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 41px;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 37px;
+}
+
+.foot-sec h1 span {
+    color: orange;
+}
+
+.foot-sec p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 37px;
+    padding-bottom: 100px;
+}
